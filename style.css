@@ -1,0 +1,164 @@
+body {
+    background: url('./white_mosque_under_blue_sky_at_daytime_hd_islamic-1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    color: #2d3a4b;
+}
+
+.counter {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #215ca8;
+    background: #e6f0fa;
+    border-radius: 12px;
+    padding: 1rem 2.5rem;
+    display: inline-block;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 0.5px;
+    border: none;
+    background: #009900;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s;
+    padding: 0;
+}
+
+button:hover {
+    background: #006600;
+}
+
+.main-action {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.main-btn {
+    width: 80px;
+    height: 80px;
+    font-size: 1.05rem;
+    border-radius: 50%;
+    background: #215ca8;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(33, 92, 168, 0.08);
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    padding: 0;
+}
+
+.main-btn:hover {
+    background: #003366;
+    box-shadow: 0 4px 16px rgba(0, 51, 102, 0.12);
+}
+
+.reset-action {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 0.75rem;
+    border-radius: 50%;
+    background: #e6f0fa;
+    color: #215ca8;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 4px rgba(33, 92, 168, 0.06);
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    margin-top: 0.5rem;
+    padding: 0;
+}
+
+.reset-btn:hover {
+    background: #215ca8;
+    color: #fff;
+}
+
+/* Optional overlay for readability (uncomment if needed)
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(255,255,255,0.3);
+    z-index: 0;
+    border-radius: 18px;
+}
+.container {
+    position: relative;
+    z-index: 1;
+}
+*/
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem 0.5rem;
+        border-radius: 10px;
+    }
+    h1 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    .counter {
+        font-size: 2rem;
+        padding: 0.7rem 1.2rem;
+        border-radius: 8px;
+    }
+    .main-btn {
+        width: 56px;
+        height: 56px;
+        font-size: 0.9rem;
+    }
+    .reset-btn {
+        width: 32px;
+        height: 32px;
+        font-size: 0.65rem;
+    }
+} 
